@@ -1,0 +1,24 @@
+.dots {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+  }
+  
+  .dots span {
+    display: inline-block;
+  }
+  
+  .dots span:not(:last-child) {
+    margin-right: 4px;
+  }
+  
+  .dots span:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    background-color: #999999;
+    border-radius: 50%;
+    margin-right: 4px;
+  }
